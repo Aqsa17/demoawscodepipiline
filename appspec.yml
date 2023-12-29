@@ -1,6 +1,6 @@
-version: 0.0
+version: 0.2
 os: linux
 files:
-  - source: /test.php
+  - source: /
     destination: /var/www/html/
 
