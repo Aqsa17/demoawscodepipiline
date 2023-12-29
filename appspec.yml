@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/
   - source: /eduwebsite/css/   # Adjust the source path to match the actual path of your CSS files
     destination: /var/www/html/css/   # Adjust the destination path as needed
-  - source: /eduwebsite/Dbfunctions/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/Dbfunctions/   # Adjust the destination path as needed
+  - source: /eduwebsite/DBfunctions/   # Adjust the source path to match the actual path of your CSS files
+    destination: /var/www/html/DBfunctions/   # Adjust the destination path as needed
 
   - source: /eduwebsite/img/   # Adjust the source path to match the actual path of your CSS files
     destination: /var/www/html/img/   # Adjust the destination path as needed
