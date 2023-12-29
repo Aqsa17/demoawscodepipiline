@@ -1,4 +1,4 @@
-<?php include("DBfunctions/Blogfunction.php"); $iCourseId = $_GET["CourseId"];  $aSelectiveCourse = SearchCourse($iCourseId);?>
+<?php include("Dbfunctions/Blogfunction.php"); $iCourseId = $_GET["CourseId"];  $aSelectiveCourse = SearchCourse($iCourseId);?>
 
 <!DOCTYPE html>
 <html lang="en">

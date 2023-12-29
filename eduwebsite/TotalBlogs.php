@@ -1,4 +1,4 @@
-<?php include("DBfunctions/Blogfunction.php");?>
+<?php include("Dbfunctions/Blogfunction.php");?>
 <!DOCTYPE html>
 <html lang="en">
 

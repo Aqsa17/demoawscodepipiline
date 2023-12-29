@@ -1,4 +1,4 @@
-<?php include("DBfunctions/Blogfunction.php");
+<?php include("Dbfunctions/Blogfunction.php");
 $iCategoryId ="";
 if(isset($_GET["CategoryId"]))
 {

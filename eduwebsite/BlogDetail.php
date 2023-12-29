@@ -1,4 +1,4 @@
-<?php include("DBfunctions/Blogfunction.php"); $id = $_GET["id"];  $aSelectiveBlog = search_Blog($id); ?>
+<?php include("Dbfunctions/Blogfunction.php"); $id = $_GET["id"];  $aSelectiveBlog = search_Blog($id); ?>
 
 <!DOCTYPE html>
 <html lang="en">
