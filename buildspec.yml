@@ -19,4 +19,4 @@ phases:
 
 artifacts:
   files:
-    - index.php
+    - /testingdemoweb/index.php
