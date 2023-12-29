@@ -1,5 +1,13 @@
 <?php 
 include("DBfunctions/Blogfunction.php");
+if(include("DBfunctions/Blogfunction.php")){
+    echo "1";
+
+}
+else
+{
+    echo "0";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
