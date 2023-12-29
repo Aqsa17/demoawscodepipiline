@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /eduwebsite/index.php
     destination: /var/www/html/
+  - source: /eduwebsite/css/   # Adjust the source path to match the actual path of your CSS files
+    destination: /var/www/html/css/   # Adjust the destination path as needed
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
@@ -15,3 +17,4 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
+
