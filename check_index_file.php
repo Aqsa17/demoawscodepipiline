@@ -1,5 +1,5 @@
 <?php
-$filePath = __DIR__ . '/test2.php';
+$filePath = __DIR__ . '/index.php';
 echo  $filePath;
 if (file_exists($filePath)) {
     echo "index.php file exists.";
