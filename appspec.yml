@@ -1,23 +1,18 @@
 version: 0.0
 os: linux
 files:
-  - source: /eduwebsite/index.php
+  - source: /testingdemoweb/index.php
     destination: /var/www/html/
-  - source: /eduwebsite/css/   # Adjust the source path to match the actual path of your CSS files
+  - source: /testingdemoweb/css/   # Adjust the source path to match the actual path of your CSS files
     destination: /var/www/html/css/   # Adjust the destination path as needed
-
-
-  - source: /eduwebsite/img/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/img/   # Adjust the destination path as needed
+  - source: /testingdemoweb/fonts/   # Adjust the source path to match the actual path of your CSS files
+    destination: /var/www/html/fonts/   # Adjust the destination path as needed
   
-  - source: /eduwebsite/js/   # Adjust the source path to match the actual path of your CSS files
+  - source: /testingdemoweb/images/   # Adjust the source path to match the actual path of your CSS files
+    destination: /var/www/html/images/   # Adjust the destination path as needed
+
+  - source: /testingdemoweb/js/   # Adjust the source path to match the actual path of your CSS files
     destination: /var/www/html/js/   # Adjust the destination path as needed
-
-  - source: /eduwebsite/lib/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/lib/   # Adjust the destination path as needed
-
-  - source: /eduwebsite/scss/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/scss/   # Adjust the destination path as needed
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
