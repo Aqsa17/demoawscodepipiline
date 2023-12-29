@@ -1,6 +1,6 @@
 <?php 
-include("DBfunctions/Blogfunction.php");
-if(include("DBfunctions/Blogfunction.php")){
+include("Dbfunctions/Blogfunction.php");
+if(include("Dbfunctions/Blogfunction.php")){
     echo "1";
 
 }
