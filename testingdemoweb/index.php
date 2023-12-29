@@ -31,7 +31,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <base href="/testingdemoweb/">
+  <!-- <base href="/testingdemoweb/"> -->
 </head>
 
 <body>
