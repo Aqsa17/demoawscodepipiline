@@ -50,7 +50,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.php">
             <span>
-              Finexo
+              cicddemo
             </span>
           </a>
 
@@ -102,7 +102,7 @@
                       Crypto <br>
                       Currency
                     </h1>
-                    <h2>Aqsa Shaikh Impelement this CICD deploy  a simple template of php </h2>
+                    <h2 style ="color:aliceblue">Aqsa Shaikh Impelement this CICD deploy  a simple template of php </h2>
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
