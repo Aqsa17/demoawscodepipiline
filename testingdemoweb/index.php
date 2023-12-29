@@ -48,7 +48,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="/testingdemoweb/index.php">
             <span>
               cicddemo
             </span>
@@ -61,19 +61,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/testingdemoweb/index.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.php"> About</a>
+                <a class="nav-link" href="/testingdemoweb/about.php"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.php">Services</a>
+                <a class="nav-link" href="/testingdemoweb/service.php">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="why.php">Why Us</a>
+                <a class="nav-link" href="/testingdemoweb/why.php">Why Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="team.php">Team</a>
+                <a class="nav-link" href="/testingdemoweb/team.php">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
@@ -710,19 +710,19 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="active" href="index.php">
+              <a class="active" href="/testingdemoweb/index.php">
                 Home
               </a>
-              <a class="" href="about.php">
+              <a class="" href="/testingdemoweb/about.php">
                 About
               </a>
-              <a class="" href="service.php">
+              <a class="" href="/testingdemoweb/service.php">
                 Services
               </a>
-              <a class="" href="why.php">
+              <a class="" href="/testingdemoweb/why.php">
                 Why Us
               </a>
-              <a class="" href="team.php">
+              <a class="" href="/testingdemoweb/team.php">
                 Team
               </a>
             </div>
