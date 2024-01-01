@@ -1,11 +1,4 @@
-<?php
-$var = "hello"; 
-if($var=="hello"){
-  echo "successfully";
-}
-else{
-  echo "failed";
-}?>
+
 <!DOCTYPE html>
 <html>
 
