@@ -1,4 +1,11 @@
-
+<?php
+$var = "hello"; 
+if($var=="hello"){
+  echo "successfully";
+}
+else{
+  echo "failed";
+}?>
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +58,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/testingdemoweb/index.php">
             <span>
-              <?= $var?>cicddemo
+              <?php echo $var?>cicddemo
             </span>
           </a>
 
