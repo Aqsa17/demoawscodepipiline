@@ -1,8 +1,5 @@
 version: 0.2
 phases:
-  install:
-    commands:
-      - echo Installing NGINX
   pre_build:
     commands:
       - echo running pre-build
