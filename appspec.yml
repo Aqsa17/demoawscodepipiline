@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /testingdemoweb/index.php
+  - source: /
     destination: /var/www/html/
   - source: /testingdemoweb/css/   # Adjust the source path to match the actual path of your CSS files
     destination: /var/www/html/css/   # Adjust the destination path as needed
