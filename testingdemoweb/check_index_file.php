@@ -1,9 +1,9 @@
 <?php
 error_log("Script execution started");
-$filePath = __DIR__ . '/check_index_file.php';
+$filePath = __DIR__ . '/service.php';
 echo  $filePath;
 if (file_exists($filePath)) {
-    echo "index.php file exists.";
+    echo "service.php file exists.";
 } else {
     exit(1);
 }
