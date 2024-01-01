@@ -1,0 +1,22 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Installing NGINX
+      - sudo apt-get update
+      - sudo apt-get install nginx -y
+  pre_build:
+    commands:
+      - echo running pre-build
+      - php check_index_file.php
+  build:
+    commands:
+      - echo running build
+
+  post_build:
+    commands:
+      - echo build completed
+
+artifacts:
+  files:
+    - /testingdemoweb/index.php
