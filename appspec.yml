@@ -3,16 +3,6 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
-  - source: /testingdemoweb/css/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/css/   # Adjust the destination path as needed
-  - source: /testingdemoweb/fonts/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/fonts/   # Adjust the destination path as needed
-  
-  - source: /testingdemoweb/images/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/images/   # Adjust the destination path as needed
-
-  - source: /testingdemoweb/js/   # Adjust the source path to match the actual path of your CSS files
-    destination: /var/www/html/js/   # Adjust the destination path as needed
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
