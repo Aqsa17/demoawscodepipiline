@@ -1,13 +1,16 @@
 version: 0.2
+
 phases:
   pre_build:
     commands:
       - echo running pre-build
-      - php '../testingdemoweb/index.php'
+      - cd testingdemoweb  # Change directory to testingdemoweb
+      - php index.php      # Run PHP script
+
   build:
     commands:
       - echo running build
 
-  post_build:
-    commands:
-      - echo build completed
+post_build:
+  commands:
+    - echo build completed
