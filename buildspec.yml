@@ -3,8 +3,7 @@ phases:
   pre_build:
     commands:
       - echo running pre-build
-      
-      - php '../check_index_file.php'
+      - php '/testingdemoweb/index.php'
   build:
     commands:
       - echo running build
