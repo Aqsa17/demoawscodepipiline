@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - echo running pre-build
-      - php index.php
+      - php /testingdemoweb/index.php
   build:
     commands:
       - echo running build
@@ -11,7 +11,3 @@ phases:
   post_build:
     commands:
       - echo build completed
-
-artifacts:
-  files:
-    - /testingdemoweb/index.php
