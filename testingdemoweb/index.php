@@ -58,7 +58,7 @@ else{
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/testingdemoweb/index.php">
             <span>
-              <?php echo $var?>cicddemo
+              <?php echo $var.'build succeed'?>cicddemo
             </span>
           </a>
 
