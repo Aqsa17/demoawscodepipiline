@@ -1,7 +1,7 @@
 <?php
 $var = "hello"; 
 if($var=="hello"){
-  echo "successfully";
+  echo "successfully run";
 }
 else{
   echo "failed";
@@ -53,7 +53,7 @@ else{
     </div>
 
     <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" style="background-color: orange;">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/testingdemoweb/index.php">
