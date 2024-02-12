@@ -53,7 +53,7 @@ else{
     </div>
 
     <!-- header section strats -->
-    <header class="header_section" style="background-color: green;">
+    <header class="header_section" style="background-color: cyan;">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/testingdemoweb/index.php">
