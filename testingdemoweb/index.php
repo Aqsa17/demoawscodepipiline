@@ -110,7 +110,7 @@ else{
                       Crypto <br>
                       Currency
                     </h1>
-                    <h2 style ="color:aliceblue">Aqsa Khan Impelement this CICD deploy  a simple template of php and this deployment done when i approved the approval is notify me through email . </h2>
+                    <h2 style ="color:aliceblue">Aqsa Shaikh Impelement this CICD deploy  a simple template of php and this deployment done when i approved the approval is notify me through email . </h2>
                     <p>
                       Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                     </p>
